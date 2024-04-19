@@ -171,7 +171,6 @@ void hangman(const char secret[])
                     }
                 }
             } else {
-                // error
                 printf("Oops! '%c' is not a valid letter: ", tmpInput[0]);
             }
             get_guessed_word(secret, letters_guessed, guessed_word);
